@@ -30,7 +30,6 @@ public class StopItem extends Thread {
 
     Ball b = null;
 
-    private Space parent;
 
     /**
      * Main constructor
@@ -44,7 +43,6 @@ public class StopItem extends Thread {
         this.x = x;
         this.y = y;
         this.width = width;
-        this.parent = parent;
         this.occupied = false;
     }
 

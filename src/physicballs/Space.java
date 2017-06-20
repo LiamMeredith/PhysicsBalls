@@ -77,9 +77,9 @@ public class Space extends Canvas implements Runnable {
 
         for (int con = 0; con < ballLimit; con++) {
             if (SpaceRules.sizes) {
-                balls.add(new Ball(con * 55 + 20, con * 40 + 20, 1, 2, 10 + (con * 2) - 9, 1, this));
+                balls.add(new Ball(con * 55 + 20, con * 40 + 20, 10, 2, 10 + (con * 2) - 9, 1, this));
             } else {
-                balls.add(new Ball(con * 55 + 20, con * 40 + 20, 1, 2, 10, 1, this));
+                balls.add(new Ball(con * 55 + 20, con * 40 + 20, 10, 2, 10, 1, this));
 
             }
         }
